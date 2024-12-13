@@ -6,7 +6,7 @@ let cartItems = [];
 
 
 // Fetch the drugs data from the JSON file
-fetch("/data/drugs.json")
+fetch("./data/drugs.json")
   .then(response => response.json())
   .then(data => {
   let categories = data.categories;
